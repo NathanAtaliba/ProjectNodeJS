@@ -1,10 +1,17 @@
-const express = require('express');
+import { Router } from 'express';
+import { getClients, createClient, deleteClient } from './controllers/clientController.js';
+import { getHairdresser, createHairdresser, deleteHairdresser } from './controllers/hairdresserController.js';
+const routes = Router();
 
-const routes = express.Router();
+//ROUTES CLIENT
+routes.get('/client', getClients);
+routes.post('/client', createClient);
+routes.delete('/client/:id', deleteClient);
 
-routes.post('/login', (req, res) => {
-    const {email, password} = req.body;
-    res.send(email);
-});
+//ROUTES HAIRDRESSER
+routes.get('/hairdresser', getHairdresser);
+routes.post('/hairdresser', createHairdresser);
+routes.delete('/hairdresser/:id', deleteHairdresser);
 
-module.exports = routes;
+
+export default routes;
