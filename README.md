@@ -2,7 +2,7 @@
 
 Oque será feito no projeto?
 
-1-  []É necessario ser possivel criar CLIENTES.
+1-  [X]É necessario ser possivel criar CLIENTES. \n
 2-  []É necessario ser possivel deletar CLIENTES. 
 3-  []É necessario ser possivel atualizar CLIENTES. 
 4-  []É necessario ser possivel buscar CLIENTES. 
