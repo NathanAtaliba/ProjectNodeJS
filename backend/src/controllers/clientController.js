@@ -11,8 +11,17 @@ async function createClient(req, res){
     return res.status(201).json(newClient);
 }
 
-async function deleteClient(){
-
+async function deleteClient(req, res){
+    const id = req.params.id;
+    await Client.findByIdAndDelete(id);
+    return res.status(200).send(`Cliente deleted with id: ${id}`);
 }
 
-export { getClients, createClient, deleteClient };
+async function updateClient(req, res){
+    const id = req.params.id;
+    //Parametros a serem atualizados
+    await Client.findByIdAndUpdate({ '_id' : id}, {'name': 'louco'})
+    return res.status(200).send(`Cliente updated with id: ${id}`)
+}
+
+export { getClients, createClient, deleteClient, updateClient };

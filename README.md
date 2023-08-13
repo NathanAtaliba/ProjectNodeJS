@@ -2,21 +2,21 @@
 
 Oque será feito no projeto?
 
-1-  [X]É necessario ser possivel criar CLIENTES. 
+1-  [x]É necessario ser possivel criar CLIENTES. 
 
-2-  []É necessario ser possivel deletar CLIENTES. 
+2-  [x]É necessario ser possivel deletar CLIENTES. 
 
-3-  []É necessario ser possivel atualizar CLIENTES. 
+3-  [x]É necessario ser possivel atualizar CLIENTES. 
 
-4-  []É necessario ser possivel buscar CLIENTES. 
+4-  [x]É necessario ser possivel buscar CLIENTES. 
 
-5-  []É necessario ser possivel criar CABELEIREIROS.
+5-  [x]É necessario ser possivel criar CABELEIREIROS.
 
-6-  []É necessario ser possivel deletar CABELEIREIROS.
+6-  [x]É necessario ser possivel deletar CABELEIREIROS.
 
-7-  []É necessario ser possivel atualizar CABELEIREIROS.
+7-  [x]É necessario ser possivel atualizar CABELEIREIROS.
 
-8-  []É necessario ser possivel buscar CABELEIREIROS. 
+8-  [x]É necessario ser possivel buscar CABELEIREIROS. 
 
 9-  []É necessario ser possivel o CLIENTE criar uma conta.
 

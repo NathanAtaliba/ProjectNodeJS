@@ -1,22 +1,22 @@
 import mongoose, { Schema } from 'mongoose';
 
-const hairdresser = new Schema({
+const HairdresserSchema = new Schema({
     name:{
         type: String,
-        required: True
+        required: true
     },
     email:{
         type: String,
-        required: True
+        required: true
     }, 
     number:{
         type: String,
-        required: True
+        required: true
     },
     desc:{
         type: String,
-        required: True
+        required: true
     },
-})
+},{versionKey: false})
 
-export default hairdresser;
+export default mongoose.model('Hairdresser', HairdresserSchema);
