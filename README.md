@@ -18,6 +18,8 @@ Oque será feito no projeto?
 
 8-  [x]É necessario ser possivel buscar CABELEIREIROS. 
 
-9-  []É necessario ser possivel o CLIENTE criar uma conta.
+9-  [x]É necessario ser possivel o CLIENTE logar em sua conta.
 
-10- []É necessario o CLIENTE conseguir marcar um horario com CABELEIREIROS.
+10- [loading]É necessario o CLIENTE conseguir marcar um horario com CABELEIREIROS.
+
+11- [loading] É necessario o CABELEIREIRO conseguir cadastrar horarios em sua agenda.
