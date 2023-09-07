@@ -20,6 +20,10 @@ Oque será feito no projeto?
 
 9-  [x]É necessario ser possivel o CLIENTE logar em sua conta.
 
-10- [loading]É necessario o CLIENTE conseguir marcar um horario com CABELEIREIROS.
+10- [x]Validação de CLIENTE com email OK.
 
-11- [loading] É necessario o CABELEIREIRO conseguir cadastrar horarios em sua agenda.
+11- [x]Criaçaõ de CLIENTE e analisa se ja tem um CLIENTE com mesmo email.
+
+12- [loading]É necessario o CLIENTE conseguir marcar um horario com CABELEIREIROS.
+
+13- [loading] É necessario o CABELEIREIRO conseguir cadastrar horarios em sua agenda.

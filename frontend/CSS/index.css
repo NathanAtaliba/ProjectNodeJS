@@ -75,26 +75,32 @@ body{
 .buttonEnter:hover{
     background-color:#964b00;
 }
+.buttonCreate{
+    font-size: 1.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: black;
+    width:130px;
+    height: 80px;
+}
+.buttonCreate:hover{
+    background-color:#964b00;
+}
+.buttonReset{
+    font-size: 1.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: black;
+    width:130px;
+    height: 80px;
+}
+.buttonReset:hover{
+    background-color:#964b00;
+}
 
-.links{
-    align-items: center;
-    justify-content: center;
-    display:grid;
-    font-size: 1.2rem;
-    padding: 5px 5px;
-    margin: 5px 5px;
-}
-.linkc{
-    color: #fff;
-    text-decoration:none;
-}
-.linkr{
-    color: #fff;
-    text-decoration:none;
-}
-.linkc:hover{
-color: #964b00;
-}
-.linkr:hover{
-color: #964b00;
-}
