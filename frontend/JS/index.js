@@ -15,7 +15,7 @@ async function login(){
     var flag = 0; 
     if(email == "" || password == ""){
         alert('Preencha os campos de dados!');
-        location.reload();
+        reset()
     }
     else{ 
     for(var i=0; i<=(clients.length)-1; i++){
@@ -26,7 +26,7 @@ async function login(){
     if(flag == 0){
         console.log('Client not found in database!');
         alert('Email or password incorrects!');
-        location.reload();
+        reset();
     }
     else{
         flag = 0;      
@@ -47,7 +47,7 @@ async function createClient() {
 
     if (email === '' || password === '') {
         alert('Preencha todos os campos!');
-        location.reload();
+        reset()
         return;
     }
 
@@ -60,7 +60,7 @@ async function createClient() {
 
         if (emailExists) {
             alert('Um usuário já está usando este e-mail. Por favor, insira outro e-mail.');
-            location.reload();
+            reset();
             return;
         }
 
